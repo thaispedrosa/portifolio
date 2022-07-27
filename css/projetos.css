@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,500&display=swap');
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.navbar{
+    display: flex;
+    flex-flow: row wrap;
+    height: 70px;
+    width: 100%;
+    background-image: url('../img/codigo.jpg');
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+
+h1{
+    font-family: 'Dancing Script', cursive;
+    font-size: 50px;
+    color: rgb(41, 19, 138);
+    margin: 10px 30px 30px 60px;
+    padding: 20px;
+    text-align: center;
+}
+
+.menu{
+    flex: 60%;
+    text-align: right;
+    margin: 20px 30px 30px 10px;
+}
+
+.menu a {
+    color: white;
+    background-color: rgb(47, 14, 105);
+    text-decoration: none;
+    font-size: 15px;
+    margin: 5px;
+    padding: 10px 15px;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.menu a:hover{
+    background-color: rgb(175, 189, 235);
+    padding: 10px 15px;
+    font-weight: bold;
+    color: rgb(66, 3, 35);
+    border-radius: 5px;
+}
+
+.headline {
+    margin-left: 5%;
+    flex: 30%;
+}
+
+#title {
+    font-weight: 900;
+    font-size: 20px;
+    letter-spacing: 10px;
+    padding: 0;
+    margin: 0;
+}
+
+section {
+    display: inline-block;
+    height: auto;
+    padding: 30px 10%;
+    text-align: center;
+    background-image: url('../img/computador.jpg');
+}
+
+section h2 {
+    width: 100%;
+    font-size: 50px;
+    font-family: 'Dancing Script', cursive;
+    margin: 0px;
+    padding: 10px;
+    font-weight: bold;
+    letter-spacing: 5px;
+    color: rgb(25, 14, 77);
+    background-color: rgb(191, 193, 224);
+}
+
+
+footer {
+    height: 120px;
+    text-align: center;
+    font-family: 'Dancing Script', cursive;
+    font-size: 15px;
+    font-weight: bold;
+    color: rgb(32, 20, 83);
+    border-top: 1px solid rgb(250, 126, 240);
+    background-image: linear-gradient(180deg, rgb(118, 129, 167), rgb(102, 97, 173), rgb(178, 189, 238));
+}
+
+.redes {
+    display: inline-block;
+}
+
+#linkedin {
+    border-radius: 30%;
+    opacity: 0.7;
+    margin: 5px;
+}
+
+#github {
+    border-radius: 30%;
+    opacity: 0.7;
+    margin: 5px;
+}
+
+#email {
+    border-radius: 30%;
+    opacity: 0.7;
+    margin: 5px;
+}
+
+#linkedin:hover {
+    cursor: pointer;
+    opacity: 1;
+}
+
+#github:hover {
+    cursor: pointer;
+    opacity: 1;
+}
+
+#email:hover {
+    cursor: pointer;
+    opacity: 1;
+}
+
+
+.serv{
+    display: inline-block;
+    margin-top: 3%;
+    color: rgb(41, 19, 138);
+}
+
+.card {
+    display: inline-block;
+    width: auto;
+    padding: 50px;
+    margin: 1%;
+    border: 1px solid rgb(142, 142, 184);
+    border-radius: 5px;
+    background-color: rgb(170, 166, 219);
+}
+
+.card:hover {
+    background: rgb(137, 127, 184);
+    color: white;
+}
+
